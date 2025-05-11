@@ -1,0 +1,14 @@
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+--[[Just copy the whole thing and execute it]]--
+getgenv().BondFarmSetting = {
+    tweenDuration = 18, -- The lower it goes, the faster you teleport, Best is 15-18
+    AutoExecute = true,
+    CheckMissedBonds = true,
+    WebhookUrl = "paste_your_webhook_here_if_you_have"
+}
+-- 3 line below is important, don't change it to false
+EnabledScript = true
+SaveNewSettings = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DonjoScripts/Public-Scripts/refs/heads/Slap-Battles/Deadrails_Obfucasted_19839292790.lua"))()
